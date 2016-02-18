@@ -1,0 +1,45 @@
+
+#myAutocomplete {
+    width: 100%;
+}
+.ui-autocomplete-multiselect.ui-state-default {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    cursor: text;
+    display: block;
+    overflow: hidden;
+    padding: 3px 3px 0;
+}
+.ui-autocomplete-multiselect .ui-autocomplete-multiselect-item .ui-icon {
+    cursor: pointer;
+    float: right;
+}
+.ui-autocomplete-multiselect .ui-autocomplete-multiselect-item {
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    padding: 1px 3px;
+}
+.ui-autocomplete-multiselect input {
+    border: medium none;
+    display: inline-block;
+    height: auto;
+    margin: 2px 2px 5px;
+    outline: medium none;
+    overflow: visible;
+    text-align: left;
+}
+.ui-autocomplete-multiselect.ui-state-active {
+    border: 1px solid #7ea4c7;
+    box-shadow: 0 0 5px rgba(50, 150, 255, 0.5);
+    outline: medium none;
+}
+.ui-autocomplete {
+    border-top: 0 none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
